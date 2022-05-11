@@ -7,7 +7,7 @@ const mySuperStyles = {
 
 };
 
-const Badge = ({label, }: BageProps) => {
+const Badge = props => {
 	return (
 		<button style={mySuperStyles} type="button" className="btn btn-primary">
 			{props.label}<span className="badge badge-light">{props.number}</span>

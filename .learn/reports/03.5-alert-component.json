@@ -1,13 +1,25 @@
 {
   "success": false,
-  "numFailedTestSuites": 1,
+  "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTests": 0,
+  "numPassedTests": 3,
   "testResults": [
     {
-      "message": "  \u001b[1m● \u001b[22mTest suite failed to run\n\n    ReferenceError: Alert is not defined\n\n    \u001b[0m \u001b[90m 11 |\u001b[39m \u001b[90m// here is where the alert component is being used, you don't have to edit this part,\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 12 |\u001b[39m \u001b[90m// but it helps you understan what properties is the component using\u001b[39m\u001b[0m\n    \u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m \u001b[33mReactDOM\u001b[39m\u001b[33m.\u001b[39mrender(\u001b[33m<\u001b[39m\u001b[33mAlert\u001b[39m text\u001b[33m=\u001b[39m\u001b[32m\"OMG! Something really bad has happended!\"\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[33m,\u001b[39m document\u001b[33m.\u001b[39mquerySelector(\u001b[32m\"#myDiv\"\u001b[39m))\u001b[33m;\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m    |\u001b[39m                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n    \u001b[0m \u001b[90m 14 |\u001b[39m\u001b[0m\n\n      \u001b[2mat Object.<anonymous> (\u001b[22mexercises/03.5-alert-component/app.jsx\u001b[2m:13:18)\u001b[22m\n      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[0m\u001b[36mexercises/03.5-alert-component/tests.js\u001b[39m\u001b[0m\u001b[2m:2:1)\u001b[22m\n",
-      "errorType": {}
+      "message": null
     }
   ],
-  "failed": []
+  "failed": [
+    {
+      "title": "ReactDOM needs to be called once",
+      "status": "passed"
+    },
+    {
+      "title": "Component text is being passed properly",
+      "status": "passed"
+    },
+    {
+      "title": "The component should return the exact HTML",
+      "status": "passed"
+    }
+  ]
 }
